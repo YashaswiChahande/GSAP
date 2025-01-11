@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Regular ☞';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#page1 {
+    /* don't give height to children give height to children using vh  */
+    /* here hieght is given in vh and not in % becausse % takes values from its parent */
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(80, 207, 229); */
+
+}
+
+#page2 {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rgb(57, 156, 174); */
+}
+
+#page3 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(80, 207, 229); */
+
+    
+}
+
+#page2 #image-div {
+
+    height: 100%;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background-color: red; */
+    overflow: hidden;
+}
+
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.4;
+}
