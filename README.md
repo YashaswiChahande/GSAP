@@ -1,1 +1,1 @@
-Learning GSAP Animation library
+GSAP Animation library
