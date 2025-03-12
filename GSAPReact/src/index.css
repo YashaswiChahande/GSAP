@@ -1,2 +1,9 @@
 @import "tailwindcss";
 
+@layer base {
+    @font-face {
+        font-family: 'playfairdisplay';
+        src: url('../public/fonts/PlayfairDisplay-VariableFont_wght.ttf')
+        format('ttf')
+    }
+}
