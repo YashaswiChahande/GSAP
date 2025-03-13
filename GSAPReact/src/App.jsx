@@ -1,4 +1,5 @@
 import Luxury from "./components/Luxury";
+import StaggerAnim from "./components/StaggerAnim";
 import Transitionpage from "./components/Transitionpage";
 
 const App = () => {
@@ -6,7 +7,7 @@ const App = () => {
   return (
 
   <div>
-   <Luxury/>
+   <StaggerAnim/>
    </div>
   )
 }
